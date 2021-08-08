@@ -16,3 +16,12 @@ ul {
 	list-style: none;
 	padding: 0;
 }
+
+#landing {
+	height: 80vh;
+	/* Center the elements automatically */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
