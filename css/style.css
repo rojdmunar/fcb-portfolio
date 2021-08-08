@@ -17,11 +17,26 @@ ul {
 	padding: 0;
 }
 
-#landing {
+#landing,#gallery {
 	height: 80vh;
 	/* Center the elements automatically */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#gallery {
+	border-radius: 0.3rem;
+}
+
+
+.tools {
+	color: white;
+	/* Create a nice and clean section for tools */
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
 }
